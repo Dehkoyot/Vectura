@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VecturaServer", "VecturaServer\VecturaServer.csproj", "{31811AAF-2178-4C7C-9EDA-79BA6EF3E268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VecturaServer.Tests", "VecturaServer.Tests\VecturaServer.Tests.csproj", "{5D4B022D-F044-4DCA-9E96-B5474F303439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31811AAF-2178-4C7C-9EDA-79BA6EF3E268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31811AAF-2178-4C7C-9EDA-79BA6EF3E268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31811AAF-2178-4C7C-9EDA-79BA6EF3E268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31811AAF-2178-4C7C-9EDA-79BA6EF3E268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4B022D-F044-4DCA-9E96-B5474F303439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4B022D-F044-4DCA-9E96-B5474F303439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4B022D-F044-4DCA-9E96-B5474F303439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4B022D-F044-4DCA-9E96-B5474F303439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

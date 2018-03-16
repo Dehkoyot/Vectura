@@ -1,0 +1,27 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo left">
+            <i class="material-icons">cloud</i>Vectura App</a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li *ngIf="userClaims" class="flow-text">
+          <b>Hello,{{userClaims.UserName}}!</b>
+        </li>
+        <li>
+          <a (click)="Home()">Home</a>
+        </li>
+        <li>
+          <a (click)="GetMyTravels()">My Travels</a>
+        </li>
+        <li>
+            <a (click)="Map()">Map</a>
+        </li>
+        <li>
+            <a (click)="GetAllUsers()">All Users</a>
+        </li>
+        <li>
+          <a (click)="Logout()">Logout</a>
+        </li>  
+      </ul>
+  </div>
+  </nav>

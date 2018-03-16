@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="container">
+    <ul class="collection with-header">
+         <li class="collection-header center blue darken-4"><h4>All Users List</h4></li>
+
+            <li *ngFor="let user of users" (click)="RedirectToUser(user)" class="collection-item"><div>{{ user }}<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+
+  </ul>
+</div>
+
