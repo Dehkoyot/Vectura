@@ -23,25 +23,5 @@ export class UserProfileComponent implements OnInit {
     );
   }
 
-  DeleteUser(){
-    
-    if(window.confirm("Are you sure to delete your account ?"))
-    {
-        this.userService.deleteUser(this.userClaims.UserName)
-      .subscribe(
-        (data : any)=>{
-          if(data == true)
-          {
-            localStorage.removeItem("userToken");
-            this.router.navigate(['/login']);
-          }
-          else
-          {
-            this.toastr.error(data.Errors[0]);
-          }
-        }
-      );
-  }
-}
 
 }
